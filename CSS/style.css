@@ -20,12 +20,7 @@
     display:flex;
     display: inline-block;
 }
-
-{
-    font-size: 48px;
-    flex-basis: 20%;
-}
-
+ 
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
