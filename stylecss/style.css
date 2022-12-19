@@ -12,38 +12,6 @@
   --font-color: #ffffff;
  }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--background-color);
-    color: var(--font-color);
-    display:flex;
-    display: inline-block;
-}
- 
-.header nav {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  flex-basis: 78%;
-}
-
-.header nav ul {
-  list-style-type: none;
-}
-
-.header nav ul li {
-  display: inline-block;
-  margin-left: 25px;
-}
-
-.navLine {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  }
-
 
 body {
   margin: 0;
@@ -67,7 +35,38 @@ p {
   margin: 0;
 }
 
+.navLine h1 {
+  display: inline-block;
+  font-size: 48px;
+}
 
+.navLine nav {
+  padding-top: 15px;
+  margin-right: 5%;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.navLine nav ul {
+  list-style-type: none;
+}
+
+.navLine nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: var(--first-color);
+  text-decoration: none;
+  border-bottom: 2px solid var(--first-color) ; 
+}
+
+p {
+  font-size: 16px;
+}
+ 
 .hero-banner {
   background: rgb(56, 73, 100);
   background-image: url("../images/02-hero-bg.png");
