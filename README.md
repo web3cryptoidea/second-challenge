@@ -16,8 +16,11 @@ This webpage is deployed as per html file provided, you can access it using the 
 You can use Inspector tool and go through all the elements and attributes of *html* file and *css* files and look how they apply to the webpage.
  
 ## Credits
+
 - README basic formatting syntax [GitHub tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 - Learning CSS basics [CSS tutorial](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) 
+
 - Learning html selectors [HTML selectors tutorial](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 
 ## License
