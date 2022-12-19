@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+/*variable */
+:root {
+  --first-color: #341e2d; 
+  --second-color: rgb(247, 239, 239); 
+  --third-color: #371938; 
+  --forth-color: #e866ec; 
+  --background-color: #2a607c;
+  --font-color: #ffffff;
+ }
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    display:flex;
+    display: inline-block;
+}
+
+{
+    font-size: 48px;
+    flex-basis: 20%;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-basis: 78%;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.navLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--third-color);
+  background-color: var(--second-color);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+.hero-banner {
+  background: rgb(56, 73, 100);
+  background-image: url("../images/02-hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+  color: var(--font-color);
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.hero-banner h2{
+  font-size: 300%;
+}
+
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-section >h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--font-color);
+  font-size: 4vw;
+  line-height: 1.1; 
+}
+
+.proj1 {
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+.proj2 {
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+.proj3 { 
+  background-image: url(../images/02-portfolio-3.jpg);
+}
+
+.proj4 {
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+
+.proj5 {
+  background-image: url(../images/02-run-buddy.jpg);
+}
+
+
+.page-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  display: flex;
+  align-items: flex-end;
+  flex-basis: calc(50% - 1em);
+  margin: .5em;
+  min-height: 150px;
+
+}
+.flex-item:first-child {
+  min-height: 300px;
+  flex-basis: 100%;
+}
+ 
+.flex-item div {
+  background-color: lightgreen;
+  padding: 10px; 
+}
+ 
+.page-section h2 {
+ border-right: 5px solid #341e2d;
+ flex-basis: 20%;
+}
+
+#contact p {
+  flex-basis: calc(80% - 1rem);
+
+}
+.navFooter {
+  Flex-basis: 78%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--third-color);
+}
+
+@media screen and (max-width: 768px) {
+  .flex-item {
+    flex-basis: 100%
+  }
+  .flex-item:first-child {
+    min-height: 150px;
+  }
+  }
